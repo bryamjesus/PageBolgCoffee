@@ -26,11 +26,11 @@ body {
 }
 
 /**************************
-GOBLALES
-**************************/
+  GOBLALES
+  **************************/
 .contenedor {
   /* max-width: 120rem;  --mientras haya espacio utiliza los 1200 px si no utiliza el 90%
-  width: 90%;*/
+    width: 90%;*/
   width: min(90%, 120rem); /*es lo mismo que los dos de arriba*/
   margin: 0 auto;
 }
@@ -68,8 +68,8 @@ img {
 }
 
 /**************************
-Utilidades
-**************************/
+  Utilidades
+  **************************/
 .no-margin {
   margin: 0;
 }
@@ -83,8 +83,8 @@ Utilidades
 }
 
 /**************************
-HEADER
-**************************/
+  HEADER
+  **************************/
 .header {
   background-image: url(../img/banner.jpg);
   height: 60rem;
@@ -144,8 +144,8 @@ HEADER
 }
 
 /**************************
-CONTENIDO PRINCIPAL
-**************************/
+  CONTENIDO PRINCIPAL
+  **************************/
 @media (min-width: 768px) {
   .contenido-principal {
     display: grid;
@@ -219,8 +219,8 @@ CONTENIDO PRINCIPAL
 }
 
 /**************************
-FOOTER
-**************************/
+  FOOTER
+  **************************/
 .footer {
   background-color: var(--negro);
   padding-bottom: 3rem;
@@ -228,8 +228,8 @@ FOOTER
 }
 
 /**************************
-SOBRE NOSOTROS
-**************************/
+  SOBRE NOSOTROS
+  **************************/
 @media (min-width: 992px) {
   .sobre-nosotros {
     display: grid;
@@ -237,28 +237,28 @@ SOBRE NOSOTROS
     gap: 2rem;
   }
   /* .sobre-nosotros{
-        display: flex;
-        gap: 2rem;
-        justify-content: space-between;
-    }
-
-    .sobre-nosotros__texto{
-        flex: 1;
-    }
-
-    .sobre-nosotros__img{
-        flex: 1;
-    } */
+          display: flex;
+          gap: 2rem;
+          justify-content: space-between;
+      }
+  
+      .sobre-nosotros__texto{
+          flex: 1;
+      }
+  
+      .sobre-nosotros__img{
+          flex: 1;
+      } */
 
   /*.sobre-nosotros__img,
-    .sobre-nosotros__texto{
-        flex-basis: 50%; es para darles medidas
-    }*/
+      .sobre-nosotros__texto{
+          flex-basis: 50%; es para darles medidas
+      }*/
 }
 
 /**************************
-CURSOS
-**************************/
+  CURSOS
+  **************************/
 .curso {
   padding: 3rem 0;
   border-bottom: 1px solid var(--gris);
@@ -304,17 +304,17 @@ CURSOS
   margin: -20rem auto 0 auto;
   width: 95%;
   padding: 1rem;
+  
 }
 
 .campo {
   display: grid;
   grid-template-columns: 1fr;
-  margin-bottom: 1rem;
 }
 .campo__boton {
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: 2rem ;
 }
 
 .boton--contacto {
@@ -322,9 +322,9 @@ CURSOS
 }
 
 @media (min-width: 768px) {
-  .formulario {
-    padding: 5rem;
-  }
+    .formulario{
+        padding: 5rem;
+    }
   .campo {
     grid-template-columns: 9rem 4fr;
     gap: 1rem;
