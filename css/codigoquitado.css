@@ -1,0 +1,33 @@
+/**************************
+FORMULARIO
+**************************/
+.formulario {
+  background-color: var(--blanco);
+  margin: -5rem auto 0 auto;
+  width: 95%;
+  padding: 5rem;
+}
+
+.campo {
+  display: flex;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+.campo__label {
+  flex: 0 0 9rem;
+  text-align: right;
+}
+
+.campo__field {
+  flex: 1;
+  border: 1px solid var(--gris);
+}
+.campo__field--textarea {
+  height: 20rem;
+}
+
+/*
+   <div class="campo">
+                <input type="submit" value="Enviar" class="boton boton--primario">
+            </div>
+  */
