@@ -222,3 +222,33 @@ FOOTER
     padding-bottom: 3rem;
     margin-top: 4rem;
 }
+
+/**************************
+SOBRE NOSOTROS
+**************************/
+@media (min-width: 992px) {
+    .sobre-nosotros{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 2rem;
+    }
+    /* .sobre-nosotros{
+        display: flex;
+        gap: 2rem;
+        justify-content: space-between;
+    }
+
+    .sobre-nosotros__texto{
+        flex: 1;
+    }
+
+    .sobre-nosotros__img{
+        flex: 1;
+    } */
+
+    /*.sobre-nosotros__img,
+    .sobre-nosotros__texto{
+        flex-basis: 50%; es para darles medidas
+    }*/
+}
+
